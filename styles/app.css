@@ -4,8 +4,9 @@
 
 :root {
     --app-color: #fff;
-    --primary-color: #E7FAFE;
     --text-color: #000;
+    --primary-color: #E7FAFE;
+    --text-color-opacity-60: rgba(0,0,0,0,60%);
 }
 
 /*
@@ -26,8 +27,9 @@ html {
     + App Style +
 */
 body {
-    font-size: 1.6rem;
     line-height: 1.6;
+    font-size: 1.6rem;
+    color: var(--text-color);
     font-family: "Nunito SemiBold";
 }
 
