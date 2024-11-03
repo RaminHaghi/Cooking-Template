@@ -1,0 +1,33 @@
+@import url("./fonts.css");
+@import url("./rest.css");
+@import url("./grid.css");
+
+:root {
+    --app-color: #fff;
+    --primary-color: #E7FAFE;
+    --text-color: #000;
+}
+
+/*
+    + Grid System +
+*/
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+/*
+    + App Style +
+*/
+body {
+    font-size: 1.6rem;
+    line-height: 1.6;
+    font-family: "Nunito SemiBold";
+}
+
