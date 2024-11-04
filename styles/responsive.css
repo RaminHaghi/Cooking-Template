@@ -1,0 +1,121 @@
+@media (max-width: 1400px) {}
+
+@media (max-width: 1200px) {
+    .menu {
+        gap: 3.3rem;
+    }
+
+    .social {
+        gap: 1.3rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .social {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+
+    /* * {
+        cursor: default !important;
+    } */
+    .navbar {
+        position: relative;
+        height: 8rem;
+    }
+
+    .menu {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        left: 0;
+        height: 0;
+        flex-direction: column;
+        background-color: var(--app-color);
+        gap: 2.5rem;
+        border-bottom-right-radius: 2rem;
+        border-bottom-left-radius: 2rem;
+    }
+
+    .menu--open {
+        height: 30rem;
+    }
+
+    .social__link {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 4rem;
+        height: 4rem;
+        cursor: pointer;
+    }
+
+    .menu-toggle__line {
+        position: relative;
+        width: 3.5rem;
+        height: .3rem;
+        border-radius: 2rem;
+        background-color: var(--secondary-color);
+        transition: all 150ms ease-in-out;
+    }
+
+    .menu-toggle__line::before,
+    .menu-toggle__line::after {
+        content: '';
+        position: absolute;
+        width: 3.5rem;
+        height: .3rem;
+        border-radius: 2rem;
+        background-color: var(--secondary-color);
+        transition: all 200ms ease-in-out;
+    }
+
+    .menu-toggle__line::before {
+        top: -0.8rem;
+    }
+
+    .menu-toggle__line::after {
+        top: 0.8rem;
+    }
+
+    .menu-toggle--open .menu-toggle__line {
+        background-color: transparent;
+    }
+
+    .menu-toggle--open .menu-toggle__line::before {
+        transform: translateY(.8rem) rotate(45deg);
+    }
+
+    .menu-toggle--open .menu-toggle__line::after {
+        transform: translateY(-.8rem) rotate(-45deg);
+    }
+
+    .cover {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(231, 250, 254, 80%);
+        opacity: 0;
+        z-index: -1;
+        transition: all 120ms ease-in-out;
+    }
+
+    .cover--show {
+        opacity: 1;
+        z-index: 99;
+    }
+}
+
+@media (max-width: 576px) {
+    .menu__link {
+        font-size: 1.4rem;
+    }
+}
