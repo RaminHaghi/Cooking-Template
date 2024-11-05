@@ -232,6 +232,8 @@ a {
 }
 
 .banner-btn__icon {
+    width: 2.4rem;
+    height: 2.4rem;
     margin-left: 1rem;
 }
 
