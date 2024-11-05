@@ -43,6 +43,10 @@
     .avatar {
         gap: 0.7rem;
     }
+    
+    .categories__title {
+        font-size: 4rem;
+    }
 }
 
 @media (max-width: 992px) {
@@ -183,6 +187,11 @@
     .menu__link {
         font-size: 1.4rem;
     }
+    
+    .categories-head{
+        flex-direction: column;
+        gap: 1.5rem;
+    }
 }
 
 @media (max-width: 450px) {
@@ -221,6 +230,10 @@
     }
 
     .banner-btn {
+        width: 100%;
+    }
+    
+    .categories__link {
         width: 100%;
     }
 }
