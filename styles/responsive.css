@@ -6,6 +6,7 @@
     .chef-info__image {
         background-size: cover;
     }
+
 }
 
 @media (max-width: 1200px) {
@@ -42,6 +43,24 @@
 
     .avatar {
         gap: 0.7rem;
+    }
+
+    .delicious-recipe__img {
+        height: 25rem;
+    }
+
+    .delicious-recipe-head {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+
+    .delicious-recipe-head__title {
+        margin-bottom: 1.5rem;
+    }
+    
+    .delicious-recipe__content {
+        height: 40rem;
     }
 }
 
@@ -230,8 +249,13 @@
 }
 
 @media (max-width: 450px) {
-    .banner__title {
-        font-size: 3.4rem;
+    .banner__title,
+    .categories__title,
+    .recipes__title,
+    .chef-info__title,
+    .social-media__title,
+    .delicious-recipe-head__title {
+        font-size: 3rem;
     }
 
     .banner__caption {
@@ -274,5 +298,9 @@
 
     .recipes-content__title {
         font-size: 2rem;
+    }
+
+    .delicious-recipe__content {
+        height: auto;
     }
 }
