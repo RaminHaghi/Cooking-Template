@@ -58,7 +58,7 @@
     .delicious-recipe-head__title {
         margin-bottom: 1.5rem;
     }
-    
+
     .delicious-recipe__content {
         height: 40rem;
     }
@@ -111,6 +111,19 @@
         width: 100%;
         flex-basis: auto;
         background-position: center;
+    }
+
+    .inbox {
+        padding: 9rem 3rem;
+    }
+
+    .inbox__img-1 {
+        width: 26rem;
+    }
+
+    .inbox__img-2 {
+        width: 27rem;
+        height: 17rem;
     }
 }
 
@@ -249,12 +262,14 @@
 }
 
 @media (max-width: 450px) {
+
     .banner__title,
     .categories__title,
     .recipes__title,
     .chef-info__title,
     .social-media__title,
-    .delicious-recipe-head__title {
+    .delicious-recipe-head__title,
+    .inbox__title {
         font-size: 3rem;
     }
 
@@ -302,5 +317,22 @@
 
     .delicious-recipe__content {
         height: auto;
+    }
+
+    .inbox__img {
+        display: none;
+    }
+
+    .inbox-form__input {
+        text-align: center;
+        padding: 2rem;
+        box-shadow: 0 0 2rem rgba(0,0,0,5%);
+    }
+
+    .inbox-form__button {
+        margin-top: 1rem;
+        position: static;
+        width: 100%;
+        height: 4rem;
     }
 }

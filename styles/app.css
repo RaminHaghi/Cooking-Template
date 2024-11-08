@@ -38,6 +38,7 @@ html {
     height: 5rem;
     font-size: 1.4rem;
     transition: all 200ms ease-in-out;
+    cursor: pointer;
 }
 
 .app-btn:hover {
@@ -535,7 +536,7 @@ a {
     border-radius: 1.5rem;
     padding: 1.5rem 1rem;
     box-shadow: 0 0 2rem var(--primary-color);
-    height: 34rem;
+    height: 35.2rem;
 
 }
 
@@ -572,4 +573,82 @@ a {
 .d-fork {
     display: flex;
     align-items: center;
+}
+
+
+/*
+    - Inbox -
+*/
+.inbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    border-radius: 3rem;
+    margin-bottom: 15rem;
+    padding: 9rem 0;
+    z-index: 10;
+    background-color: var(--primary-color);
+}
+
+.inbox__title {
+    font-size: 4.8rem;
+    text-align: center;
+}
+
+.inbox__caption {
+    font-family: "Inter Regular";
+    color: var(--text-color-opacity-60);
+    max-width: 60rem;
+    margin: 1.5rem auto 6rem auto;
+    text-align: center;
+}
+
+.inbox-form {
+    position: relative;
+    width: 100%;
+    max-width: 44rem;
+}
+
+.inbox-form__input {
+    border: none;
+    outline: none;
+    padding: 2.5rem 13rem 2.5rem 3rem;
+    border-radius: 1.5rem;
+    width: 100%;
+}
+
+.inbox-form__input::placeholder {
+    font-family: "Inter Medium";
+    font-size: 1.4rem;
+}
+
+.inbox-form__button {
+    position: absolute;
+    top: 0;
+    right: 1rem;
+    bottom: 0;
+    margin: auto;
+    width: 11.5rem;
+    height: 4.4rem;
+}
+
+.inbox__img {
+    position: absolute;
+    z-index: -1;
+}
+
+.inbox__img-1 {
+    bottom: 0;
+    left: 0;
+    width: 37rem;
+}
+
+.inbox__img-2 {
+    bottom: -2rem;
+    right: -3rem;
+    width: 40rem;
+    height: 26rem;
 }
