@@ -726,3 +726,142 @@ a {
 .footer-copyright__orange {
     color: var(--secondary-color);
 }
+
+
+/*
+    + Recipes Page +
+*/
+.recipe-info {
+    margin-bottom: 15rem;
+}
+
+.recipe-info-head {
+    margin-bottom: 4REM;
+}
+
+.recipe-info-head__title {
+    font-size: 6.4rem;
+    margin-bottom: 4rem;
+}
+
+.recipe-info-head__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-recipe {
+    display: flex;
+    align-items: center;
+}
+
+.about-recipe .avatar {
+    padding-right: 4rem;
+}
+
+.preptime__werapper,
+.cooktime__werapper,
+.chicken__wrapper {
+    display: flex;
+    align-items: center;
+    padding: 0 3rem;
+    height: 4.5rem;
+    gap: 1rem;
+    border-left: .1rem solid rgba(0, 0, 0, 10%);
+}
+
+.about-recipe__subject,
+.about-recipe__time {
+    font-family: "Inter Medium";
+    font-size: 1.2rem;
+}
+
+.about-recipe__time {
+    color: var(--text-color-opacity-60);
+}
+
+.head-btns {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.head-btns-print,
+.head-btns-share {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.head-btns__btn {
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    background-color: var(--primary-color);
+}
+
+.head-btns__text {
+    font-family: "Inter Medium";
+    font-size: 1.2rem;
+}
+
+/*
+    - Content Recipe -
+*/
+.recipe-info-content {
+    margin-bottom: 4rem;
+}
+
+.recipe-info-content__img {
+    border-radius: 3rem;
+}
+
+.recipe-info-content__details {
+    height: 100%;
+    padding: 3rem;
+    border-radius: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+}
+
+.recipe-info-content__title {
+    font-size: 2.4rem;
+    margin-bottom: 2rem;
+}
+
+.recipe-info-resource {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.8rem;
+    font-family: "Inter Medium";
+    border-bottom: .1rem solid rgba(0, 0, 0, 10%);
+    color: var(--text-color-opacity-60);
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.recipe-info-resource__unit {
+    color: var(--text-color);
+}
+
+.recipe-info-content__caption {
+    text-align: center;
+    font-family: "Inter Regular";
+    margin: 0 auto;
+    max-width: 34rem;
+    color: var(--text-color-opacity-60);
+}
+
+.recipe-info__caption {
+    text-align: center;
+    font-family: "Inter Regular";
+    color: var(--text-color-opacity-60);
+}
