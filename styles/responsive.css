@@ -151,6 +151,18 @@
     .footer-menu {
         margin: 0 auto;
     }
+
+    .head-btns {
+        display: none;
+    }
+
+    .recipe-info-head__title {
+        font-size: 5.4rem;
+    }
+
+    .recipe-info-content__head {
+        margin-bottom: 5rem;
+    }
 }
 
 @media (max-width: 768px) {
@@ -274,6 +286,31 @@
     .chef-info__caption {
         margin: 3rem 0 5rem 0;
     }
+
+    .recipe-info-head {
+        margin-bottom: 3rem;
+    }
+
+    .about-recipe {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .about-recipe .avatar {
+        padding-right: 0;
+        flex-basis: 50%;
+        justify-content: center;
+        margin-bottom: 1.5rem;
+    }
+
+    .preptime__werapper,
+    .cooktime__werapper,
+    .chicken__wrapper {
+        border-left: none;
+        flex-basis: 50%;
+        justify-content: center;
+        margin-bottom: 1.5rem;
+    }
 }
 
 @media (max-width: 576px) {
@@ -371,6 +408,48 @@
     }
 
     .footer-menu__link {
+        font-size: 1.4rem;
+    }
+
+    .recipe-info-head__wrapper {
+        justify-content: center;
+    }
+
+    .about-recipe {
+        flex-direction: column;
+    }
+
+    .recipe-info-head__title {
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    .about-recipe .avatar {
+        gap: 1rem;
+    }
+
+    .about-recipe .avatar__img {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .about-recipe .avatar__date,
+    .avatar__name {
+        font-size: 1.4rem;
+    }
+
+    .preptime__werapper,
+    .cooktime__werapper,
+    .chicken__wrapper {
+        flex-basis: auto;
+    }
+
+    .recipe-info-content__title {
+        font-size: 2.2rem;
+        text-align: center;
+    }
+
+    .recipe-info-resource {
         font-size: 1.4rem;
     }
 }
