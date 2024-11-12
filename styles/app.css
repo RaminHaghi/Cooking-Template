@@ -881,3 +881,86 @@ a {
     font-family: "Inter Regular";
     color: var(--text-color-opacity-60);
 }
+
+
+/*
+    - ingredients section -
+*/
+.ingredient {
+    margin-bottom: 15rem;
+}
+
+.ingredient__title {
+    font-size: 3.6rem;
+    margin-bottom: 3rem;
+}
+
+.ingredient-menu {
+    padding: 5rem;
+}
+
+.ingredient-menu__item {
+    font-family: "Inter regular";
+    font-size: 1.8rem;
+    padding: 2.5rem;
+    position: relative;
+    border-bottom: .1rem solid rgba(0, 0, 0, 10%);
+}
+
+.ingredient-menu__item::before {
+    content: ' ';
+    position: absolute;
+    width: 2.4rem;
+    height: 2.4rem;
+    border-radius: 100%;
+    top: 0;
+    bottom: 0;
+    left: -1.5rem;
+    margin: auto 0;
+    border: 0.2rem solid #DBE2E5;
+    background-color: transparent;
+}
+
+.ingredient-menu__item--active::before {
+    background-color: #000;
+    border: 0.2rem solid #000;
+}
+
+.ingredient-menu__icon {
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -0.9rem;
+    margin: auto 0;
+}
+
+.other-recipe-content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    gap: 2rem;
+
+}
+
+.other-recipe-content__img {
+    width: 18rem;
+    height: 12rem;
+    border-radius: 1.5rem;
+}
+
+.other-recipe-content__info {
+    width: 50%;
+}
+
+.other-recipe-content__title {
+    font-size: 2rem;
+    max-width: 20rem;
+    margin-bottom: 1.2rem;
+}
+
+.other-recipe-content__subject {
+    font-family: "Inter Medium";
+    font-size: 1.4rem;
+    color: var(--text-color-opacity-60);
+}
