@@ -964,3 +964,17 @@ a {
     font-size: 1.4rem;
     color: var(--text-color-opacity-60);
 }
+
+/*
+    - Sauce -
+*/
+.sauce {}
+
+.sauce__title {
+    font-size: 2.4rem;
+}
+
+.sauce__img {
+    width: 100%;
+    border-radius: 1.5rem;
+}
