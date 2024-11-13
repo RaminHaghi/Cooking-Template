@@ -965,16 +965,59 @@ a {
     color: var(--text-color-opacity-60);
 }
 
-/*
-    - Sauce -
-*/
-.sauce {}
-
 .sauce__title {
     font-size: 2.4rem;
 }
 
 .sauce__img {
     width: 100%;
+    border-radius: 1.5rem;
+}
+
+/*
+    - Directions section -
+*/
+.directions {
+    margin-bottom: 15rem;
+}
+
+.directions__title {
+    font-size: 3.6rem;
+    margin-bottom: 3rem;
+}
+
+.directions-content {
+    padding-left: 4.5rem;
+}
+
+.directions-content__subject {
+    font-size: 2.4rem;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.directions-content__subject::before {
+    content: ' ';
+    position: absolute;
+    width: 2.4rem;
+    height: 2.4rem;
+    border-radius: 100%;
+    top: 0;
+    bottom: 0;
+    left: -4.5rem;
+    margin: auto 0;
+    border: 0.2rem solid #DBE2E5;
+    background-color: transparent;
+}
+
+.directions-content__caption {
+    font-family: "Inter Regular";
+    color: var(--text-color-opacity-60);
+    margin-bottom: 7rem;
+}
+
+.directions-content__img {
+    width: 100%;
+    margin-bottom: 3.6rem;
     border-radius: 1.5rem;
 }
