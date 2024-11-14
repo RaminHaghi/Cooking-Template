@@ -694,7 +694,7 @@ a {
 }
 
 .footer-social__icon:hover {
-    fill: rgba(0, 0, 0, 20%);
+    fill: rgba(255, 116, 38, 40%);
 }
 
 .footer-menu {
@@ -1020,4 +1020,17 @@ a {
     width: 100%;
     margin-bottom: 3.6rem;
     border-radius: 1.5rem;
+}
+
+/*
+    - Other Like Recipes -
+*/
+.other-like-recipes {
+    margin-bottom: 15rem;
+}
+
+.other-like-recipes__title {
+    font-size: 3.6rem;
+    text-align: center;
+    margin-bottom: 4rem;
 }
