@@ -323,6 +323,19 @@
         flex-direction: column;
         gap: 1.5rem;
     }
+
+    .blog-head__title {
+        font-size: 5.4rem;
+    }
+
+    .search-box__input {
+        padding: 2rem 11rem 2rem 2rem;
+    }
+
+    .search-box__btn {
+        height: auto;
+        width: 10rem;
+    }
 }
 
 @media (max-width: 450px) {
@@ -496,5 +509,22 @@
 
     .other-like-recipes__title {
         font-size: 2.9rem;
+    }
+
+    .blog-head__title {
+        font-size: 4.4rem;
+    }
+
+    .blog-head__caption {
+        font-size: 1.4rem;
+    }
+
+    .search-box__input,
+    .search-box__btn {
+        font-size: 1.2rem;
+    }
+
+    .search-box__input::placeholder {
+        font-size: 1rem;
     }
 }
