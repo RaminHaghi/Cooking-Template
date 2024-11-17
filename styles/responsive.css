@@ -95,7 +95,7 @@
     .blog-article__content {
         flex-direction: column;
         flex-basis: 49%;
-        height: auto;
+        height: 49rem;
         padding: 0.7rem;
     }
 
@@ -108,12 +108,29 @@
     }
 
     .article-info__name {
-        font-size: 1.4rem;
+        font-size: 1.3rem;
+    }
+
+    .article-info__date {
+        font-size: 1.2rem;
     }
 
     .article-info__name,
     .article-info__date {
-        padding: 0 1.5rem;
+        padding: 0 1.7rem;
+    }
+
+    .tasty-content {
+        flex-direction: column;
+        padding: 1.5rem;
+    }
+
+    .tasty-content__image {
+        max-height: 15rem;
+    }
+
+    .tasty-content__title {
+        max-width: 22rem;
     }
 }
 
@@ -223,6 +240,10 @@
 
     .blog-article {
         width: 100%;
+    }
+
+    .blog-tasty {
+        display: none;
     }
 }
 
@@ -373,13 +394,17 @@
         margin-bottom: 1.5rem;
     }
 
+    .blog-article {
+        gap: 2rem;
+    }
+
     .blog-article__content {
         flex-basis: 100%;
+        height: auto;
     }
 
     .blog-article__img {
-        height: 100%;
-        max-height: 28rem;
+        height: 28rem;
     }
 }
 

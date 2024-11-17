@@ -1119,7 +1119,7 @@ a {
     gap: 3rem;
     border-radius: 1.5rem;
     padding: 1.5rem;
-    border: 0.1rem solid rgba(0, 0, 0, 6%);
+    border: 0.1rem solid rgba(0, 0, 0, 10%);
 }
 
 .blog-article__img {
@@ -1162,7 +1162,7 @@ a {
 
 .article-info__name {
     font-family: "Inter Bold";
-    border-right: 0.1rem solid rgba(0, 0, 0, 10%);
+    border-right: 0.1rem solid rgba(0, 0, 0, 8%);
 }
 
 .article-info__date {
@@ -1176,10 +1176,53 @@ a {
 */
 .blog-tasty {
     width: 32%;
-    background-color: red;
+    margin-bottom: 6rem;
 }
 
 .blog-tasty__tilte {
     font-size: 3.2rem;
-    margin-bottom: 3.5rem;
+    margin-bottom: 3rem;
+}
+
+.tasty-contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.6rem;
+}
+
+.tasty-content {
+    padding: 1rem 0;
+    display: flex;
+    gap: 2rem;
+    border-radius: 1.5rem;
+    border: 0.1rem solid rgba(0, 0, 0, 10%);
+}
+
+.tasty-content__image {
+    max-height: 12rem;
+    height: 100%;
+    border-radius: 1.5rem;
+}
+
+.tasty-content__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.tasty-content__title {
+    font-size: 2rem;
+}
+
+.tasty-content__subject {
+    font-family: "Inter Medium";
+    font-size: 1.4rem;
+    color: var(--text-color-opacity-60);
+}
+
+.blog-tasty__ads {
+    width: 100%;
+    border-radius: 1.5rem;
+    margin-top: 6rem;
 }
