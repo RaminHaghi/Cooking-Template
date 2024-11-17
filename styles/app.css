@@ -1102,13 +1102,13 @@ a {
 .blog-content {
     margin-bottom: 15rem;
     display: flex;
-    gap: 3rem;
+    gap: 1.5rem;
 }
 
 .blog-article {
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
+    width: 68%;
     gap: 3rem;
 }
 
@@ -1174,7 +1174,10 @@ a {
 /*
     - Blog Tasty -
 */
-.blog-tasty {}
+.blog-tasty {
+    width: 32%;
+    background-color: red;
+}
 
 .blog-tasty__tilte {
     font-size: 3.2rem;

@@ -19,6 +19,18 @@
         width: 3.5rem;
         height: 3.5rem;
     }
+
+    .blog-article {
+        gap: 1rem;
+    }
+
+    .blog-article__title {
+        font-size: 2.1rem;
+    }
+
+    .blog-article__caption {
+        margin: 1rem 0 2rem 0;
+    }
 }
 
 @media (max-width: 1200px) {
@@ -73,6 +85,35 @@
 
     .delicious-recipe__content {
         height: 40rem;
+    }
+
+    .blog-article {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .blog-article__content {
+        flex-direction: column;
+        flex-basis: 49%;
+        height: auto;
+        padding: 0.7rem;
+    }
+
+    .blog-article__img {
+        width: 100%;
+    }
+
+    .blog-article__caption {
+        margin: 1.5rem 0 3rem 0;
+    }
+
+    .article-info__name {
+        font-size: 1.4rem;
+    }
+
+    .article-info__name,
+    .article-info__date {
+        padding: 0 1.5rem;
     }
 }
 
@@ -174,6 +215,14 @@
 
     .recipe-info-content__head {
         margin-bottom: 5rem;
+    }
+
+    .blog-content {
+        flex-direction: column-reverse;
+    }
+
+    .blog-article {
+        width: 100%;
     }
 }
 
@@ -322,6 +371,15 @@
         flex-basis: 50%;
         justify-content: center;
         margin-bottom: 1.5rem;
+    }
+
+    .blog-article__content {
+        flex-basis: 100%;
+    }
+
+    .blog-article__img {
+        height: 100%;
+        max-height: 28rem;
     }
 }
 
@@ -537,5 +595,18 @@
 
     .search-box__input::placeholder {
         font-size: 1rem;
+    }
+
+    .article-info__name,
+    .article-info__date {
+        padding: 0 1.2rem;
+    }
+
+    .article-info__name {
+        font-size: 1.2rem;
+    }
+
+    .article-info__date {
+        font-size: 1.1rem;
     }
 }
