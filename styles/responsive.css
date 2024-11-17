@@ -31,6 +31,10 @@
     .blog-article__caption {
         margin: 1rem 0 2rem 0;
     }
+
+    .about-us__title {
+        font-size: 5.6rem;
+    }
 }
 
 @media (max-width: 1200px) {
@@ -406,6 +410,10 @@
     .blog-article__img {
         height: 28rem;
     }
+
+    .about-us__title {
+        font-size: 4rem;
+    }
 }
 
 @media (max-width: 576px) {
@@ -633,5 +641,22 @@
 
     .article-info__date {
         font-size: 1.1rem;
+    }
+
+    .about-us__title {
+        font-size: 3.5rem;
+    }
+
+    .about-us__avatar {
+        gap: 1rem;
+    }
+
+    .about-us__info {
+        padding-right: 2rem;
+    }
+
+    .about-us__pic {
+        width: 4rem;
+        height: 4rem;
     }
 }
