@@ -136,6 +136,10 @@
     .tasty-content__title {
         max-width: 22rem;
     }
+
+    .about-us-content-qoute__text {
+        font-size: 3.1rem;
+    }
 }
 
 @media (max-width: 992px) {
@@ -248,6 +252,14 @@
 
     .blog-tasty {
         display: none;
+    }
+
+    .about-us-content-social {
+        display: none;
+    }
+
+    .about-us-content__wrapper {
+        flex-basis: 100%;
     }
 }
 
@@ -402,6 +414,22 @@
         gap: 2rem;
     }
 
+    .about-us-contents,
+    .inbox,
+    .other-like-recipes,
+    .banner,
+    .categories,
+    .recipes,
+    .chef-info,
+    .social-media,
+    .delicious-recipe,
+    .recipe-info,
+    .ingredient,
+    .directions,
+    .blog-content {
+        margin-bottom: 10rem;
+    }
+
     .blog-article__content {
         flex-basis: 100%;
         height: auto;
@@ -411,8 +439,32 @@
         height: 28rem;
     }
 
+    .about-us__head {
+        margin-bottom: 3rem;
+    }
+
     .about-us__title {
         font-size: 4rem;
+    }
+
+    .about-us__avatar {
+        margin: 3rem auto;
+    }
+
+    .about-us__caption {
+        margin: 0 auto 3rem auto;
+    }
+
+    .about-us-content {
+        padding: 0 2rem 0 4rem;
+    }
+
+    .about-us-content__title {
+        font-size: 2.1rem;
+    }
+
+    .about-us-content-qoute__text {
+        font-size: 2.5rem;
     }
 }
 
@@ -658,5 +710,13 @@
     .about-us__pic {
         width: 4rem;
         height: 4rem;
+    }
+
+    .about-us-content {
+        padding: 0;
+    }
+
+    .about-us-content-qoute {
+        padding: 4rem 2rem;
     }
 }
