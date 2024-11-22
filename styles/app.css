@@ -2840,6 +2840,9 @@ a {
         -webkit-box-pack: center;
             -ms-flex-pack: center;
                 justify-content: center;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: start;
     }
 
     .about-recipe .avatar {
@@ -2862,6 +2865,7 @@ a {
             -ms-flex-pack: center;
                 justify-content: center;
         margin-bottom: 1.5rem;
+        padding: 0;
     }
 
     .blog-article {
