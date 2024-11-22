@@ -1042,10 +1042,19 @@ a {
     padding: 2rem 0;
     border-radius: 3rem;
 }
+.categories-content:hover .categories-content__img {
+    width: 11rem;
+    -webkit-transform: rotate(-8deg);
+        -ms-transform: rotate(-8deg);
+            transform: rotate(-8deg);
+}
 
 .categories-content__img {
     width: 10rem;
     height: 10rem;
+    -webkit-transition: all 200ms ease-in-out;
+        -o-transition: all 200ms ease-in-out;
+            transition: all 200ms ease-in-out;
 }
 
 .categories-content__text {
