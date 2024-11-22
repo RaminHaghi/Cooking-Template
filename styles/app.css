@@ -2688,9 +2688,10 @@ a {
 
 @media (max-width: 768px) {
 
-    /* * {
+    * {
         cursor: default !important;
-    } */
+    }
+    
     .navbar {
         position: relative;
         height: 8rem;
